@@ -1,0 +1,12 @@
+import turtle
+a=open("line.txt", "r")
+b=a.read()
+turtle.forward(int(b))
+turtle.left(90)
+turtle.forward(int(b))
+turtle.left(90)
+turtle.forward(int(b))
+turtle.left(90)
+turtle.forward(int(b))
+turtle.pensize(10)
+turtle.begin_fill("black")
